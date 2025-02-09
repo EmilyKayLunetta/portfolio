@@ -1,28 +1,38 @@
-import React from "react";
-import { Typography, Toolbar, AppBar, Button } from "@mui/material";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Typography, Toolbar, AppBar, Box, IconButton, Drawer } from "@mui/material";
+import MenuIcon from '@mui/icons-material/Menu';
+import DrawerMenu from "./DrawerMenu";
 
 function Navbar() {
+    const [open, setOpen] = useState(false);
+
+    const toggleDrawer = (newOpen) => () => {
+        setOpen(newOpen);
+    };
+
     return (
-        <AppBar position="static">
-            <Toolbar>
-                <Typography variant="h6" sx={{ flexGrow: 1 }}>
-                    My Portfolio
-                </Typography>
-                <Button color="inherit" component={Link} to="/portfolio">
-                    Portfolio
-                </Button>
-                <Button color="inherit" component={Link} to="/portfolio/education">
-                    Education
-                </Button>
-                <Button color="inherit" component={Link} to="/portfolio/art">
-                    Art
-                </Button>
-                <Button color="inherit" component={Link} to="/portfolio/contact">
-                    Contact
-                </Button>
-            </Toolbar>
-        </AppBar>
+        <Box sx={{ flexGrow: 1 }}>
+            <AppBar position="static">
+                <Toolbar>
+                    <IconButton
+                        onClick={toggleDrawer(true)}
+                        size="large"
+                        edge="start"
+                        color="inherit"
+                        aria-label="menu"
+                        sx={{ mr: 2 }}
+                    >
+                        <MenuIcon />
+                    </IconButton>
+                    <Drawer open={open} onClose={toggleDrawer(false)}>
+                        <DrawerMenu toggleDrawer={toggleDrawer} />
+                    </Drawer>
+                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                        Emily Lunetta • Educator & Artist
+                    </Typography>
+                </Toolbar>
+            </AppBar>
+        </Box>
     );
 }
 

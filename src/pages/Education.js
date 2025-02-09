@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Typography, Grid, Card, CardMedia, CardContent } from "@mui/material";
+import { Container, Typography, Grid2 as Grid, Card, CardMedia, CardContent } from "@mui/material";
 
 const educationItems = [
     {
