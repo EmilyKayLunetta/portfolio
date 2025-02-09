@@ -1,52 +1,30 @@
-import React from "react";
-import { Container, Typography, Grid2 as Grid, Card, CardMedia, CardContent } from "@mui/material";
-
-const educationItems = [
-    {
-        title: "Creative Lesson Plans",
-        image: "/images/lesson-plans.jpg",
-        description: "Engaging lesson plans for elementary students that inspire curiosity and creativity."
-    },
-    {
-        title: "Student Art Projects",
-        image: "/images/student-art.jpg",
-        description: "A collection of student artwork and hands-on projects."
-    },
-    {
-        title: "Interactive Learning",
-        image: "/images/interactive.jpg",
-        description: "Using technology to enhance classroom engagement and learning outcomes."
-    }
-];
+import React, { useState, useEffect } from "react";
+import { Container } from "@mui/material";
+import HeroSection from "../components/common/HeroSection";
+import ProjectList from "../components/common/ProjectList";
 
 function Education() {
-    return (
-        <Container>
-            <Typography variant="h2" align="center" gutterBottom>
-                Education
-            </Typography>
-            <Typography variant="h5" align="center" color="textSecondary" paragraph>
-                Innovative teaching strategies and student-driven projects.
-            </Typography>
+    const [lessons, setLessons] = useState([]);
 
-            <Grid container spacing={4} justifyContent="center">
-                {educationItems.map((item, index) => (
-                    <Grid item key={index} xs={12} sm={6} md={4}>
-                        <Card>
-                            <CardMedia component="img" height="200" image={item.image} alt={item.title} />
-                            <CardContent>
-                                <Typography variant="h6">{item.title}</Typography>
-                                <Typography variant="body2" color="textSecondary">
-                                    {item.description}
-                                </Typography>
-                            </CardContent>
-                        </Card>
-                    </Grid>
-                ))}
-            </Grid>
-        </Container>
+    useEffect(() => {
+        const baseURL = process.env.PUBLIC_URL || "";
+        fetch(`${baseURL}/data/lessons.json`)
+            .then((res) => res.json())
+            .then((data) => setLessons(data))
+            .catch((error) => console.error("❌ Error loading lessons:", error));
+    }, []);
+
+    if (!lessons.length) return <p>Loading...</p>;
+
+    return (
+        <>
+            <HeroSection title="Education & Teaching" backgroundImage="/images/education-banner.jpg" />
+
+            <Container sx={{ mt: 5 }}>
+                <ProjectList items={lessons} title="Lesson Plans & Teaching Resources" />
+            </Container>
+        </>
     );
 }
 
 export default Education;
-

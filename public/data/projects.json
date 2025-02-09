@@ -1,0 +1,18 @@
+[
+    {
+      "id": 101,
+      "title": "Creative Learning Techniques",
+      "description": "A project showcasing innovative lesson planning.",
+      "image": "/images/project1.jpg",
+      "category_id": 1,
+      "user_id": 1
+    },
+    {
+      "id": 102,
+      "title": "Digital Illustration Series",
+      "description": "A collection of illustrations inspired by literature.",
+      "image": "/images/project2.jpg",
+      "category_id": 2,
+      "user_id": 1
+    }
+  ]

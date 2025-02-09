@@ -1,28 +1,41 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Typography, Box } from "@mui/material";
+import HeroSection from "../components/common/HeroSection";
+import AboutSection from "../components/common/AboutSection";
 
 function Contact() {
-    return (
-        <Container maxWidth="md">
-            <Typography variant="h2" align="center" gutterBottom>
-                Contact Me
-            </Typography>
-            <Typography variant="body1" align="center" color="textSecondary" paragraph>
-                Fill out the form below, and I’ll get back to you as soon as possible!
-            </Typography>
+    const [user, setUser] = useState(null);
 
-            {/* Embedding the Google Form */}
-            <Box sx={{ mt: 3 }}>
-                <iframe
-                    src="https://docs.google.com/forms/d/e/YOUR_GOOGLE_FORM_ID/viewform?embedded=true"
-                    width="100%"
-                    height="600px"
-                    frameBorder="0"
-                >
-                    Loading…
-                </iframe>
-            </Box>
-        </Container>
+    useEffect(() => {
+        const baseURL = process.env.PUBLIC_URL || "";
+        fetch(`${baseURL}/data/users.json`)
+            .then((res) => res.json())
+            .then((data) => setUser(data[0]))
+            .catch((error) => console.error("❌ Error loading user data:", error));
+    }, []);
+
+    if (!user) return <p>Loading...</p>;
+
+    return (
+        <>
+            <HeroSection title="Get in Touch" backgroundImage="/images/contact-banner.jpg" />
+
+            <Container sx={{ mt: 5 }}>
+                <AboutSection profileImage={user.profile_image} bio={user.bio} email={user.email} />
+
+                {/* Google Form for Contact */}
+                <Box sx={{ mt: 5, textAlign: "center" }}>
+                    <Typography variant="h5" gutterBottom>Send a Message</Typography>
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true"
+                        width="100%"
+                        height="600px"
+                        style={{ border: "none" }}
+                        title="Contact Form"
+                    ></iframe>
+                </Box>
+            </Container>
+        </>
     );
 }
 
