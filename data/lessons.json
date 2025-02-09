@@ -1,0 +1,78 @@
+[
+    {
+      "id": 1,
+      "title": "Storytelling Through Art",
+      "description": "Students create visual storytelling projects by illustrating their own short stories.",
+      "image": "/images/storytelling.jpg",
+      "grade_level": "3rd - 5th Grade",
+      "subject": "Art & Language Arts",
+      "duration": "45 minutes",
+      "materials": ["Paper", "Colored pencils", "Markers", "Story template"],
+      "learning_objectives": [
+        "Develop creativity and visual storytelling skills.",
+        "Enhance narrative writing through illustrations.",
+        "Practice composition and character development."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The Science of Color Mixing",
+      "description": "A hands-on lesson exploring color theory and how primary colors mix to create secondary colors.",
+      "image": "/images/color-mixing.jpg",
+      "grade_level": "1st - 3rd Grade",
+      "subject": "Art & Science",
+      "duration": "40 minutes",
+      "materials": ["Paint (red, yellow, blue)", "Paintbrushes", "Water cups", "Mixing palette"],
+      "learning_objectives": [
+        "Understand primary and secondary colors.",
+        "Experiment with color mixing to observe new hues.",
+        "Learn how artists use color to create mood and depth."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Creating Symmetry in Art",
+      "description": "Students explore the concept of symmetry by designing their own symmetrical drawings.",
+      "image": "/images/symmetry-art.jpg",
+      "grade_level": "4th - 6th Grade",
+      "subject": "Art & Math",
+      "duration": "50 minutes",
+      "materials": ["Graph paper", "Pencils", "Rulers", "Markers"],
+      "learning_objectives": [
+        "Recognize and create symmetrical designs.",
+        "Apply mathematical concepts of symmetry in art.",
+        "Enhance precision and observation skills."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Historical Figures in Art",
+      "description": "Students research historical figures and create artistic portraits that reflect their contributions.",
+      "image": "/images/historical-figures.jpg",
+      "grade_level": "5th - 7th Grade",
+      "subject": "History & Art",
+      "duration": "60 minutes",
+      "materials": ["Research materials", "Drawing paper", "Paint or colored pencils"],
+      "learning_objectives": [
+        "Connect historical knowledge with artistic representation.",
+        "Develop research and creative interpretation skills.",
+        "Create meaningful visual tributes to influential figures."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Designing a Classroom Mural",
+      "description": "A collaborative project where students design and plan a mural based on a chosen theme.",
+      "image": "/images/classroom-mural.jpg",
+      "grade_level": "6th - 8th Grade",
+      "subject": "Art & Community Engagement",
+      "duration": "Multi-day project",
+      "materials": ["Large canvas or wall space", "Sketching materials", "Paints"],
+      "learning_objectives": [
+        "Work collaboratively on a large-scale art project.",
+        "Learn about composition, color harmony, and design planning.",
+        "Create art that reflects shared themes and values."
+      ]
+    }
+  ]
+  
