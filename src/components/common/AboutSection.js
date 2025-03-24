@@ -12,7 +12,7 @@ function AboutSection({ profileImage, bio, email }) {
                     <CardMedia
                         component="img"
                         height="250"
-                        image={profileImage || "/images/default-profile.jpg"}
+                        image={profileImage || "/assets/images/emily.jpg"}
                         alt="Profile Picture"
                         sx={{ borderRadius: "10px" }}
                     />
