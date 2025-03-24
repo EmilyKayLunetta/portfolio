@@ -1,44 +1,114 @@
 import React, { useState, useEffect } from "react";
-import { Container } from "@mui/material";
-import HeroSection from "../components/common/HeroSection";
-import AboutSection from "../components/common/AboutSection";
-import ProjectList from "../components/common/ProjectList";
+import { Grid2 as Grid, Typography, Box, Link, useTheme } from "@mui/material";
+import CyclingPhrases from "../components/CyclingPhrases";
 
 function Portfolio() {
-    const [user, setUser] = useState(null);
-    const [projects, setProjects] = useState([]);
+  const [user, setUser] = useState(null);
+  const [projects, setProjects] = useState([]);
+  const theme = useTheme();
 
-    useEffect(() => {
-        const baseURL = process.env.PUBLIC_URL || "";
-        Promise.all([
-            fetch(`${baseURL}/data/users.json`).then((res) => res.json()),
-            fetch(`${baseURL}/data/projects.json`).then((res) => res.json())
-        ])
-        .then(([usersData, projectsData]) => {
-            if (usersData.length > 0) {
-                setUser(usersData[0]);
-            }
-            setProjects(projectsData);
-        })
-        .catch((error) => console.error("❌ Error loading data:", error));
-    }, []);
+  useEffect(() => {
+    const baseURL = process.env.PUBLIC_URL || "";
+    Promise.all([
+      fetch(`${baseURL}/data/users.json`).then((res) => res.json()),
+      fetch(`${baseURL}/data/projects.json`).then((res) => res.json()),
+    ])
+      .then(([usersData, projectsData]) => {
+        if (usersData.length > 0) {
+          setUser(usersData[0]);
+        }
+        setProjects(projectsData);
+      })
+      .catch((error) => console.error("❌ Error loading data:", error));
+  }, []);
 
-    if (!user || !projects.length) return <p>Loading...</p>;
+  if (!user || !projects.length) return <p>Loading...</p>;
 
-    return (
-        <>
-            {/* Reusable Hero Section */}
-            <HeroSection title={`${user.name}'s Portfolio`} backgroundImage="/images/hero-background.jpg" />
+  return (
+    <Grid container style={{ height: "100vh", overflow: "hidden" }}>
+      {/* Left: Profile Image */}
+      <Grid
+        size={{ xs: 12, md: 6 }}
+        style={{
+          backgroundImage: `url(${user.profile_image})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      />
 
-            <Container sx={{ mt: 5 }}>
-                {/* Reusable About Section */}
-                <AboutSection profileImage={user.profile_image} bio={user.bio} email={user.email} />
+      {/* Right: Name, Typewriter, Links */}
+      <Grid
+        size={{ xs: 12, md: 6 }}
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          position: "relative",
+          px: 4,
+          textAlign: "center",
+          backgroundColor: theme.palette.background.default,
+        }}
+      >
+        {/* Top bar */}
+        <Box
+          sx={{
+            position: "absolute",
+            top: 0,
+            width: "100%",
+            height: "64px",
+            backgroundColor: theme.palette.primary.main,
+            boxShadow: '0 2px 6px rgba(0,0,0,0.1)',
+            zIndex: 1,
+          }}
+        />
 
-                {/* Reusable Project List */}
-                <ProjectList items={projects.slice(0, 3)} title="Featured Projects" />
-            </Container>
-        </>
-    );
+        {/* Main Content */}
+        <Box sx={{ animation: 'fadeIn 1.2s ease-out' }}>
+          <Typography variant="h1" gutterBottom>
+            {user.name}
+          </Typography>
+
+          <CyclingPhrases />
+
+          <Box sx={{ display: 'flex', gap: 4, mt: 4, justifyContent: 'center' }}>
+            <Link href="/portfolio/education" variant="h6" underline="hover">
+              Education
+            </Link>
+            <Link href="/portfolio/art" variant="h6" underline="hover">
+              Art
+            </Link>
+            <Link href="/portfolio/contact" variant="h6" underline="hover">
+              Contact
+            </Link>
+          </Box>
+        </Box>
+
+        {/* Bottom bar */}
+        <Box
+          sx={{
+            position: "absolute",
+            bottom: 0,
+            width: "100%",
+            height: "64px",
+            backgroundColor: theme.palette.primary.main,
+            boxShadow: '0 -2px 6px rgba(0,0,0,0.1)',
+            zIndex: 1,
+          }}
+        />
+      </Grid>
+
+      {/* Animation Keyframes */}
+      <style>
+        {`
+          @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+          }
+        `}
+      </style>
+    </Grid>
+  );
 }
 
 export default Portfolio;
