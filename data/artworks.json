@@ -1,63 +1,282 @@
 [
     {
-      "id": 1,
-      "title": "The Dreamer's Journey",
-      "description": "A surreal digital painting depicting a traveler floating through a cosmic landscape.",
-      "image": "/images/dreamers-journey.jpg",
-      "medium": "Digital Painting",
-      "dimensions": "1920x1080 px",
-      "year_created": 2023,
-      "inspiration": "Inspired by dreams and the unknown realms of space."
+        "id": 1,
+        "title": "The Dreamer's Journey",
+        "description": "A surreal digital painting depicting a traveler floating through a cosmic landscape.",
+        "image": "/portfolio/assets/images/beaded mermaid tail.jpg",
+        "medium": "Digital Painting",
+        "dimensions": "1920x1080 px",
+        "year_created": 2023,
+        "inspiration": "Inspired by dreams and the unknown realms of space."
     },
     {
-      "id": 2,
-      "title": "Autumn Reflections",
-      "description": "A watercolor piece capturing the beauty of fall leaves mirrored on a calm lake.",
-      "image": "/images/autumn-reflections.jpg",
-      "medium": "Watercolor on Paper",
-      "dimensions": "12x16 inches",
-      "year_created": 2022,
-      "inspiration": "Inspired by the changing seasons and peaceful nature retreats."
+        "id": 2,
+        "title": "Autumn Reflections",
+        "description": "A watercolor piece capturing the beauty of fall leaves mirrored on a calm lake.",
+        "image": "/portfolio/assets/images/Cooking mushroom.jpg",
+        "medium": "Watercolor on Paper",
+        "dimensions": "12x16 inches",
+        "year_created": 2022,
+        "inspiration": "Inspired by the changing seasons and peaceful nature retreats."
     },
     {
-      "id": 3,
-      "title": "City Lights at Midnight",
-      "description": "An impressionistic acrylic painting showing the movement and energy of a busy city street.",
-      "image": "/images/city-lights.jpg",
-      "medium": "Acrylic on Canvas",
-      "dimensions": "24x36 inches",
-      "year_created": 2021,
-      "inspiration": "The vibrant nightlife and glowing reflections of neon signs in the rain."
+        "id": 3,
+        "title": "City Lights at Midnight",
+        "description": "An impressionistic acrylic painting showing the movement and energy of a busy city street.",
+        "image": "/portfolio/assets/images/Ezio AC.jpg",
+        "medium": "Acrylic on Canvas",
+        "dimensions": "24x36 inches",
+        "year_created": 2021,
+        "inspiration": "The vibrant nightlife and glowing reflections of neon signs in the rain."
     },
     {
-      "id": 4,
-      "title": "Ethereal Portrait",
-      "description": "A mixed-media portrait blending charcoal and digital textures for a ghostly effect.",
-      "image": "/images/ethereal-portrait.jpg",
-      "medium": "Charcoal & Digital",
-      "dimensions": "18x24 inches",
-      "year_created": 2023,
-      "inspiration": "Exploring the contrast between physical and digital art techniques."
+        "id": 4,
+        "title": "Ethereal Portrait",
+        "description": "A mixed-media portrait blending charcoal and digital textures for a ghostly effect.",
+        "image": "/portfolio/assets/images/Fairy shadowbox.jpg",
+        "medium": "Charcoal & Digital",
+        "dimensions": "18x24 inches",
+        "year_created": 2023,
+        "inspiration": "Exploring the contrast between physical and digital art techniques."
     },
     {
-      "id": 5,
-      "title": "Botanical Study",
-      "description": "A detailed ink and watercolor study of medicinal plants and their properties.",
-      "image": "/images/botanical-study.jpg",
-      "medium": "Ink & Watercolor",
-      "dimensions": "11x14 inches",
-      "year_created": 2022,
-      "inspiration": "Inspired by historical botanical illustrations and herbal medicine."
+        "id": 5,
+        "title": "Botanical Study",
+        "description": "A detailed ink and watercolor study of medicinal plants and their properties.",
+        "image": "/portfolio/assets/images/Flower watercolor canvas 1.jpg",
+        "medium": "Ink & Watercolor",
+        "dimensions": "11x14 inches",
+        "year_created": 2022,
+        "inspiration": "Inspired by historical botanical illustrations and herbal medicine."
     },
     {
-      "id": 6,
-      "title": "Mechanical Wings",
-      "description": "A concept art piece of a steampunk-inspired mechanical wing design.",
-      "image": "/images/mechanical-wings.jpg",
-      "medium": "Pencil & Digital Painting",
-      "dimensions": "20x30 inches",
-      "year_created": 2023,
-      "inspiration": "Steampunk aesthetics and the idea of human flight through innovation."
+        "id": 6,
+        "title": "Mechanical Wings",
+        "description": "A concept art piece of a steampunk-inspired mechanical wing design.",
+        "image": "/portfolio/assets/images/Flower watercolor canvas 2.jpg",
+        "medium": "Pencil & Digital Painting",
+        "dimensions": "20x30 inches",
+        "year_created": 2023,
+        "inspiration": "Steampunk aesthetics and the idea of human flight through innovation."
+    },
+    {
+        "id": 7,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Flower watercolor canvas 3.webp",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 8,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Geometric landscape.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 9,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Ghibli lightswitch plate.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 10,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Gold moon - for dad.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 11,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Moon frame.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 12,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/moon ornament.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 13,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/moth watercolor.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 14,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Mushroom pumpkin house.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 15,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/My favorite art tool - About Me project.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 16,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Original Yellow and teal moon.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 17,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Owl Spoon Rest.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 18,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Psychadelic Elephant.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 19,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Stanley.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 20,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Steven Universe frame.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 21,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Sun and Moon for mom and Steffi.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 22,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Tui and La.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 23,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Watercolor cartoon birds on wood.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 24,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Abstract lines painting.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 25,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Autumn moon version 1.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 26,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Autumn moon version 2.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 27,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Moon pattern pop art.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
+    },
+    {
+        "id": 28,
+        "title": "",
+        "description": "",
+        "image": "/portfolio/assets/images/Sailor Moon.jpg",
+        "medium": "",
+        "dimensions": "",
+        "year_created": "",
+        "inspiration": ""
     }
-  ]
-  
+]
