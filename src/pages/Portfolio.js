@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Grid2 as Grid, Typography, Box, Button, useTheme } from "@mui/material";
 import CyclingPhrases from "../components/CyclingPhrases";
+import { Link } from "react-router-dom";
 
 function Portfolio() {
   const [user, setUser] = useState(null);
@@ -72,13 +73,13 @@ function Portfolio() {
           <CyclingPhrases />
 
           <Box sx={{ display: 'flex', gap: 4, mt: 4, justifyContent: 'center' }}>
-            <Button href="/portfolio/education" variant="contained" color="primary">
+            <Button component={Link} to="/portfolio/education" variant="contained" color="primary">
               Education
             </Button>
-            <Button href="/portfolio/art" variant="contained" color="primary">
+            <Button component={Link} to="/portfolio/art" variant="contained" color="primary">
               Art
             </Button>
-            <Button href="/portfolio/contact" variant="contained" color="primary">
+            <Button component={Link} to="/portfolio/contact" variant="contained" color="primary">
               Contact
             </Button>
           </Box>
