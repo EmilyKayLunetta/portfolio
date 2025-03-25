@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Grid2 as Grid, Typography, Box, Link, useTheme } from "@mui/material";
+import { Grid2 as Grid, Typography, Box, Button, useTheme } from "@mui/material";
 import CyclingPhrases from "../components/CyclingPhrases";
 
 function Portfolio() {
@@ -72,15 +72,15 @@ function Portfolio() {
           <CyclingPhrases />
 
           <Box sx={{ display: 'flex', gap: 4, mt: 4, justifyContent: 'center' }}>
-            <Link href="/portfolio/education" variant="h6" underline="hover">
+            <Button href="/portfolio/education" variant="contained" color="primary">
               Education
-            </Link>
-            <Link href="/portfolio/art" variant="h6" underline="hover">
+            </Button>
+            <Button href="/portfolio/art" variant="contained" color="primary">
               Art
-            </Link>
-            <Link href="/portfolio/contact" variant="h6" underline="hover">
+            </Button>
+            <Button href="/portfolio/contact" variant="contained" color="primary">
               Contact
-            </Link>
+            </Button>
           </Box>
         </Box>
 
