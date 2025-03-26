@@ -1,43 +1,33 @@
 [
     {
-        "id": 1,
-        "title": "The Dreamer's Journey",
-        "description": "A surreal digital painting depicting a traveler floating through a cosmic landscape.",
-        "image": "/portfolio/assets/images/beaded mermaid tail.jpg",
-        "medium": "Digital Painting",
-        "dimensions": "1920x1080 px",
-        "year_created": 2023,
-        "inspiration": "Inspired by dreams and the unknown realms of space."
-    },
-    {
         "id": 2,
-        "title": "Autumn Reflections",
-        "description": "A watercolor piece capturing the beauty of fall leaves mirrored on a calm lake.",
+        "title": "A Dash of Enchantment",
+        "description": "A whimsical acrylic painting on an upcycled wooden plaque, depicting an endearing mushroom chef stirring a bubbling cauldron over a fire in the heart of the enchanted woods.",
         "image": "/portfolio/assets/images/Cooking mushroom.jpg",
-        "medium": "Watercolor on Paper",
-        "dimensions": "12x16 inches",
-        "year_created": 2022,
-        "inspiration": "Inspired by the changing seasons and peaceful nature retreats."
+        "medium": "Acrylics on upcycled wood",
+        "dimensions": " ",
+        "year_created": 2021,
+        "inspiration": "Inspired by fantasy stories and peaceful nature retreats."
     },
     {
         "id": 3,
-        "title": "City Lights at Midnight",
-        "description": "An impressionistic acrylic painting showing the movement and energy of a busy city street.",
+        "title": "The Hidden Blade",
+        "description": "A striking geometric portrait of Ezio Auditore, painted in acrylics and pen on upcycled wood, capturing his shadowed visage beneath the Assassin’s hood, with the iconic creed inscribed below.",
         "image": "/portfolio/assets/images/Ezio AC.jpg",
-        "medium": "Acrylic on Canvas",
+        "medium": "Acrylics, pen, paper, on upcycled wood",
         "dimensions": "24x36 inches",
         "year_created": 2021,
-        "inspiration": "The vibrant nightlife and glowing reflections of neon signs in the rain."
+        "inspiration": "Commissioned piece for a lover of Assassin’s Creed. I am also a big fan of the video game series, and was inspired to include the quote to really exude the deeper messages from the games."
     },
     {
         "id": 4,
-        "title": "Ethereal Portrait",
-        "description": "A mixed-media portrait blending charcoal and digital textures for a ghostly effect.",
+        "title": "Whimsy in Bloom",
+        "description": "A delicate shadow box scene featuring Cicely Mary Barker’s enchanting Flower Fairies frolicking among layers of lifelike silk blooms, creating a whimsical three-dimensional world of nature and magic.",
         "image": "/portfolio/assets/images/Fairy shadowbox.jpg",
-        "medium": "Charcoal & Digital",
+        "medium": "Silk flowers, cut outs of Cicely Mary Barker's flower fairies on postcard, arranged in an upcycled shadow box",
         "dimensions": "18x24 inches",
-        "year_created": 2023,
-        "inspiration": "Exploring the contrast between physical and digital art techniques."
+        "year_created": 2021,
+        "inspiration": "I have adored fairies since childhood, especially Cicely Mary Barker’s Flower Fairies, which decorated my room and still bring me joy today. This piece combines my lifelong love for her illustrations with my passion for floral design, creating a tiny enchanted world where fairies can dance forever."
     },
     {
         "id": 5,
@@ -71,212 +61,213 @@
     },
     {
         "id": 8,
-        "title": "",
-        "description": "",
+        "title": "Geometric Horizons",
+        "description": "A bold, geometric interpretation of a mountainous landscape, painted in acrylics on upcycled wood, blending sharp angles with natural grandeur.",
         "image": "/portfolio/assets/images/Geometric landscape.jpg",
-        "medium": "",
+        "medium": "Acrylics on upcycled wood board",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2021",
+        "inspiration": "Created as a gift for a friend, this piece reflects a love for nature’s grandeur through a modern, geometric lens, capturing the strength and serenity of the mountains."
     },
     {
         "id": 9,
-        "title": "",
-        "description": "",
+        "title": "Ghibli’s Hidden Gems",
+        "description": "A hand-painted and glazed light switch plate featuring beloved side characters from Studio Ghibli’s films, capturing their memorable presence in vivid detail.",
         "image": "/portfolio/assets/images/Ghibli lightswitch plate.jpg",
-        "medium": "",
+        "medium": "Paint and glaze on ceramic pottery",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2019",
+        "inspiration": "Inspired by my love for the whimsical side characters in Hayao Miyazaki’s films, I painted this piece to celebrate the unsung heroes who bring depth and charm to the Ghibli universe."
     },
     {
         "id": 10,
-        "title": "",
-        "description": "",
+        "title": "The Moon Through His Eyes",
+        "description": "A golden moon with a woman’s face, set against a starry sky and swirling clouds, created with colors chosen specifically for my dad to enjoy, making this celestial piece uniquely personal.",
         "image": "/portfolio/assets/images/Gold moon - for dad.jpg",
-        "medium": "",
+        "medium": "Acrylics on upcycled wood board",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2022",
+        "inspiration": "Inspired by my dad’s love for my first moon painting, this version was crafted with colors that he, as a red-green colorblind individual, could see and appreciate, making it a special gift between us."
     },
     {
         "id": 11,
-        "title": "",
-        "description": "",
+        "title": "The Field Beneath the Moon",
+        "description": "A moon with a woman’s face floats serenely above a field of grass and flowers, with playful moths flying amongst the flora, creating a delicate and ethereal scene where nature and the cosmos meet.",
         "image": "/portfolio/assets/images/Moon frame.jpg",
-        "medium": "",
+        "medium": "Acrylics on glass, in wood frame",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2021",
+        "inspiration": "Inspired by my love for the moon and the tranquil beauty of flowers, this piece was carefully painted in layers on the back of the glass of the frame and depicted the soft, celestial scene in full once flipped over."
     },
     {
         "id": 12,
-        "title": "",
-        "description": "",
+        "title": "An Ornament Hung in the Sky",
+        "description": "A hand-painted and glazed ceramic ornament, featuring the moon and stars, created to add a touch of celestial magic to my Christmas tree.",
         "image": "/portfolio/assets/images/moon ornament.jpg",
-        "medium": "",
+        "medium": "Paint and glaze on ceramic pottery",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2017",
+        "inspiration": "Inspired by my love for the moon and the festive spirit of the holiday season, this ornament was crafted to bring a bit of starlit beauty to my Christmas tree."
     },
     {
         "id": 13,
-        "title": "",
-        "description": "",
+        "title": "Symmetry of Nature",
+        "description": "A small, wallet-sized canvas card featuring a delicate watercolor of a pink spirit moth, framed by a symmetrical pattern of flowers, plants, and mushrooms, evoking the balance and beauty of the natural world.",
         "image": "/portfolio/assets/images/moth watercolor.jpg",
-        "medium": "",
+        "medium": "Watercolor on canvas card",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
-    },
-    {
-        "id": 14,
-        "title": "",
-        "description": "",
-        "image": "/portfolio/assets/images/Mushroom pumpkin house.jpg",
-        "medium": "",
-        "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2021",
+        "inspiration": "Inspired by my love for both the ethereal beauty of moths and the enchanting details of nature, this piece was created to capture the delicate connection between the spirit world and the natural environment."
     },
     {
         "id": 15,
-        "title": "",
-        "description": "",
+        "title": "A Palette of Passion",
+        "description": "A playful and vibrant depiction of a paintbrush pouring out a rainbow of colors, surrounded by symbols of my favorite things, from family and food to music and memories, capturing the essence of creativity.",
         "image": "/portfolio/assets/images/My favorite art tool - About Me project.jpg",
-        "medium": "",
+        "medium": "Pencil and colored pencils on paper",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2025",
+        "inspiration": "This piece was created as an example for a class project, inspired by the idea of expressing the things I love through my favorite art tool—showing how art can reflect the many layers of who we are."
     },
     {
         "id": 16,
-        "title": "",
-        "description": "",
+        "title": "Goddess of the Night Sky",
+        "description": "A golden moon with a graceful woman’s face shines in a serene teal sky, surrounded by swirling clouds and sparkling stars, capturing the quiet beauty of the night.",
         "image": "/portfolio/assets/images/Original Yellow and teal moon.jpg",
         "medium": "",
-        "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "dimensions": "Acrylics on upcycled wood board",
+        "year_created": "2021",
+        "inspiration": "An art piece I made for myself. Inspired by my love for the moon and the ethereal art of Cocorrina, this piece reflects the captivating beauty and mystery of the celestial body that has always fascinated me."
     },
     {
         "id": 17,
-        "title": "",
-        "description": "",
+        "title": "The Owl’s Perch",
+        "description": "A charming hand-painted and glazed ceramic spoon rest, shaped like a wise owl, bringing both function and whimsy to the kitchen.",
         "image": "/portfolio/assets/images/Owl Spoon Rest.jpg",
-        "medium": "",
+        "medium": "Paint and glaze on ceramic pottery",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2016",
+        "inspiration": "Inspired by my love for animals and playful kitchen accessories, this piece was crafted to add a touch of personality and charm to my cooking space."
     },
     {
         "id": 18,
-        "title": "",
-        "description": "",
+        "title": "Psychedelic Pachyderm",
+        "description": "A detailed acrylic painting of an elephant set against a vibrant, psychedelic floral background, blending 60s and 70s-inspired patterns with a deep, symbolic connection to love and family.",
         "image": "/portfolio/assets/images/Psychadelic Elephant.jpg",
-        "medium": "",
+        "medium": "Acrylic paint pens on canvas",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2021",
+        "inspiration": "Inspired by my family’s deep connection to elephants as a symbol of love, this piece captures their grace and strength, enhanced by the vibrant energy of psychedelic floral patterns."
     },
     {
         "id": 19,
-        "title": "",
-        "description": "",
+        "title": "A Tribute to Stanley",
+        "description": "A painting in the style of Alphonse Mucha’s art nouveau masterpieces, featuring Stanley from Spiritfarer, surrounded by symbols important to his character in the game, framed in a brilliant, elongated composition, in tribute to a beloved cat named Stanley after the character.",
         "image": "/portfolio/assets/images/Stanley.jpg",
-        "medium": "",
+        "medium": "Acrylics, sharpie, and spray paint on upcycled wood board",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2021",
+        "inspiration": "Inspired by my love for the game Spiritfarer and my deep emotional connection to the character Stanley, this piece is a tribute to my cat who shared his name, honoring both the spirit of the game and the memories of my furry companion."
     },
     {
         "id": 20,
-        "title": "",
-        "description": "",
+        "title": "The Crystal Gems",
+        "description": "A reverse-painting on the back of glass, flipped to reveal a vibrant promotional-style poster of Steven Universe, featuring the four main characters surrounded by a burst of the show’s signature colors and stars.",
         "image": "/portfolio/assets/images/Steven Universe frame.jpg",
-        "medium": "",
+        "medium": "Acrylics on glass, in wood frame",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2021",
+        "inspiration": "Painted for my son and inspired by the deep connection I share with him and our love for Steven Universe, this painting captures the essence of the show’s powerful messages of love, growth, and acceptance."
     },
     {
         "id": 21,
-        "title": "",
-        "description": "",
+        "title": "Celestial Love",
+        "description": "A round, upcycled wood board painting in the style of Cocorrina, depicting the sun and moon as women sharing a loving kiss, created as a Mother’s Day gift for my mother and my stepmom.",
         "image": "/portfolio/assets/images/Sun and Moon for mom and Steffi.jpg",
-        "medium": "",
+        "medium": "Acrylics on upcycled wood board",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2021",
+        "inspiration": "Inspired by my love for my mother and her wife, this piece symbolizes the harmony of love and unity, with the sun and moon sharing a kiss in a celestial embrace."
     },
     {
         "id": 22,
-        "title": "",
-        "description": "",
+        "title": "Tui and La: A Cosmic Balance",
+        "description": "A hand-painted and glazed ceramic light-switch plate depicting Tui and La, the koi spirits of the Moon and Ocean from Avatar: The Last Airbender, set against a split background with the night sky and the ocean behind each opposite spirit, framed by crescent moons.",
         "image": "/portfolio/assets/images/Tui and La.jpg",
-        "medium": "",
+        "medium": "Paint and glaze on ceramic pottery",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2018",
+        "inspiration": "Inspired by the balance and harmony symbolized by Tui and La in Avatar: The Last Airbender, this piece captures the cosmic connection between the moon and the ocean, brought to life with the yin-yang symbolism of the koi fish."
     },
     {
         "id": 23,
-        "title": "",
-        "description": "",
+        "title": "Playful Plumage",
+        "description": "A watercolor and pen illustration of cartoon tropical birds on a wood board, created as a commissioned piece for a boy who loves birds, bringing the vibrant colors and playful nature of these birds to life.",
         "image": "/portfolio/assets/images/Watercolor cartoon birds on wood.jpg",
-        "medium": "",
+        "medium": "Watercolor and pen on wood board",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2021",
+        "inspiration": "Inspired by a young boy’s love for birds, this piece captures the playful spirit and vibrant colors of tropical birds, blending watercolor and pen to create a lively, cartoonish style."
     },
     {
         "id": 24,
-        "title": "",
-        "description": "",
+        "title": "Abstract Harmony",
+        "description": "An abstract line painting created in my favorite colors, designed as an example for a 'paint and sip'-style art class at a DIY art studio, demonstrating fluidity and personal expression.",
         "image": "/portfolio/assets/images/Abstract lines painting.jpg",
-        "medium": "",
+        "medium": "Acrylic on canvas board",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2022",
+        "inspiration": "Inspired by my love for vibrant colors and abstract expression, this piece serves as a demonstration of personal style and the beauty of simple, flowing lines."
     },
     {
         "id": 25,
-        "title": "",
-        "description": "",
+        "title": "Autumn Moon",
+        "description": "A painting featuring the moon above a lake and treeline, with a vibrant autumn tree in the foreground, painted as an example for a painting event, capturing the beauty of fall through warm, fiery colors.",
         "image": "/portfolio/assets/images/Autumn moon version 1.jpg",
-        "medium": "",
+        "medium": "Acrylic on canvas board",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2025",
+        "inspiration": "Inspired by the serene beauty of autumn nights, this piece combines the tranquil reflection of the moon on water with the rich colors of fall, designed to evoke a peaceful, seasonal atmosphere."
     },
     {
         "id": 26,
-        "title": "",
-        "description": "",
+        "title": "Autumn Moon Two",
+        "description": "A more detailed version of the autumn moon painting, with intricate moon features above a lake and treeline, painted during the event, bringing more focus to the moon’s texture and light.",
         "image": "/portfolio/assets/images/Autumn moon version 2.jpg",
-        "medium": "",
+        "medium": "Acrylic on canvas board",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2025",
+        "inspiration": "This version enhances the celestial beauty of the moon in the autumn sky, focusing on the moon's radiant detail while maintaining the peaceful ambiance of the fall season."
     },
     {
         "id": 27,
-        "title": "",
-        "description": "",
+        "title": "Zentangled Moon",
+        "description": "A zentangle drawing created as an example for a class project, featuring a crescent moon at the center, broken into sections of various patterns and bright colors, with a black-and-white detailed background that creates a striking pop-out effect.",
         "image": "/portfolio/assets/images/Moon pattern pop art.jpg",
-        "medium": "",
+        "medium": "Pencil, permanent marker, and alcohol-based color markers on paper",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2025",
+        "inspiration": "Inspired by the beauty of detailed patterns and the contrast of color against black and white, this piece showcases the moon as a focal point, blending intricate designs with vibrant hues."
     },
     {
         "id": 28,
-        "title": "",
-        "description": "",
+        "title": "From School Girl to Sailor Moon",
+        "description": "Acrylic painting on an upcycled salmon board featuring Sailor Moon in mid-transition, surrounded by ethereal ribbons of pink, light, sparkles, and bubbles, capturing her magical transformation.",
         "image": "/portfolio/assets/images/Sailor Moon.jpg",
-        "medium": "",
+        "medium": "Acrylic, glitter acrylic marker, and Sharpie pen on upcycled wooden salmon board",
         "dimensions": "",
-        "year_created": "",
-        "inspiration": ""
+        "year_created": "2021",
+        "inspiration": "Created as a commission for a Sailor Moon lover and inspired by the iconic transformation of the titular character, this piece captures her ethereal shift from her school-girl persona into her Sailor Moon form, illuminated by the magic of the moment."
+    },
+    {
+        "id": 1,
+        "title": "Submerged Splendor",
+        "description": "A shimmering underwater scene crafted with beads and watercolors on wood, depicting a graceful mermaid tail drifting through the currents in a dance of light and motion.",
+        "image": "/portfolio/assets/images/beaded mermaid tail.jpg",
+        "medium": "Beads of various material, watercolors, on wood board",
+        "dimensions": " ",
+        "year_created": 2021,
+        "inspiration": "Commission piece for a little girl who loved mermaids. I wanted to use beads to enhance the texture and color."
     }
 ]
+
